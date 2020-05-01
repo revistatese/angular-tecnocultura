@@ -44,9 +44,9 @@ export class NewPostComponent implements OnInit {
     console.log(this.pdf=event.target.files[0]);
   }
 
-  resetForm(productoForm?:NgForm){
-    if(productoForm != null)
-    productoForm.reset();
+  resetForm(RevistaForm?:NgForm){
+    if(RevistaForm != null)
+    RevistaForm.reset();
     this.postSvc.selectedRevista= new RevistaI();
   }
 

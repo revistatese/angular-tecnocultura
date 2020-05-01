@@ -17,7 +17,7 @@ export class EditPostComponent implements OnInit {
 
   @Input() post: RevistaI;
 
-  constructor(private postSvc: RevistaServiceService) { }
+  constructor(public postSvc: RevistaServiceService) { }
   ngOnInit() {
     this.image = this.post.imagenR;
     this.imageOriginal = this.post.imagenR;

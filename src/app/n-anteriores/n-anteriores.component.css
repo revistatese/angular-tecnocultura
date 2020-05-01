@@ -81,9 +81,11 @@ body{
     .section-title {
         text-align: center;
         padding-bottom: 90px;
+
     }
     .section-title h2 {
         text-transform: uppercase;
+     
     }
     .section-title p {
         padding-bottom: 8px;
@@ -115,6 +117,10 @@ body{
         width: 100%;
         position: relative;
     }    
+    section, .video-review {
+        padding-top: 50px;
+        padding-bottom: 90px;
+    }
 /*
     .container{
         margin-top: 25px;
